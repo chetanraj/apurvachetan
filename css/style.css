@@ -185,13 +185,31 @@ Images
     background-image: url(../saint-valentine-outline/svg/location3.svg);
 }
 
+.cd-romantic28 {
+    background-image: url(../saint-valentine-outline/svg/romantic28.svg);
+}
+
+.cd-tic1 {
+    background-image: url(../saint-valentine-outline/svg/tic1.svg);
+}
+
+.cd-wedding {
+    background-image: url(../saint-valentine-outline/svg/wedding.svg)
+}
+
 .cover-photo {
     background-image: url(../img/ring.jpg);
     background-size: 100%;
     background-position: 0 50%;
-    color: #fff;
+    color: #ecf0f1;
     font-family: "AlexBrush-Regular";
     font-size: 4em;
+}
+
+.label-text {
+    color: #6E6E86;
+    font-family: "AlexBrush-Regular";
+    font-size: 2em;
 }
 
 
@@ -206,13 +224,23 @@ and (min-width: 1024px) {
 and (min-width : 320px) 
 and (max-width : 768px) {
     
+    header {
+        height: 100px;
+        line-height: 100px;
+    }
+    
     .cover-photo {
         background-repeat: no-repeat;
+        font-size: 3em;
     }
     
     #cd-timeline {
-        padding: 0;
+        padding: 1em;
         margin-top: 1em;
+    }
+    
+    #cd-timeline::before {
+        left: 34px;
     }
 }
 
