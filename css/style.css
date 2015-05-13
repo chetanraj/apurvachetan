@@ -90,6 +90,13 @@ a.celebrate {
     border  : 1px solid #FFFFFF;
     color   : #FFFFFF;
     padding : 1em;
+    transition: all 0.3s;
+}
+
+a.celebrate:hover {
+  border-color: #e67e22;
+  background-color: #FFFFFF;
+  color: #424242;
 }
 
 .intro-label {
