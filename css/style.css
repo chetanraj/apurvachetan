@@ -114,8 +114,8 @@ a.celebrate {
     border: 1px solid #FFF;
     color: #FFF;
     padding: 1em 1.5em;
-    transition: all 0.3s;
-    border-radius: 100px 10px;
+    transition: all 1s;
+    border-radius: 50px 5px;
     position: relative;
     font-size: 1.5em;
     font-weight: 200;
@@ -127,11 +127,6 @@ a.celebrate:hover {
   opacity: 0.8;
 }
 
-.intro-label {
-    color: #fff;
-    margin-bottom: 3em;
-}
-
 .pattern1 {
     position: fixed;
     background: url(../img/wedding-swirl-1.png);
@@ -140,4 +135,11 @@ a.celebrate:hover {
     top: 0;
     opacity: 0.1;
     z-index: 0;
+}
+
+@media only screen 
+and (min-device-width : 320px) {
+    h1 {
+        font-size: 4em;
+    }
 }
