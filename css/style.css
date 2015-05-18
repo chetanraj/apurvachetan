@@ -66,6 +66,16 @@ p{
     src: url("Quikhand.otf");
 }
 
+@font-face {
+    font-family:"Allura";
+    src: url("Allura-Regular.otf");
+}
+
+@font-face {
+    font-family: "AlexBrush";
+    src: url("AlexBrush-Regular.ttf");
+}
+
 .ruthie {
     font-family: "Ruthie";
 }
@@ -78,28 +88,56 @@ p{
     font-family: "Quikhand";
 }
 
+.allura {
+    font-family: "Allura";
+}
+
+.alexbrush {
+    font-family: "AlexBrush";
+}
+
 /* App CSS
  * --------------------------------------- */
 
+.landing-page {
+    z-index: 1;
+    position: relative;
+}
+
 .landing-page-header {
     line-height     : 1em;
-    margin-bottom   : 1em;
+    margin-bottom   : 2em;
+    text-shadow: 3px 1px 2px rgba(34, 34, 34, 0.3);
 }
 
 a.celebrate {
-    border  : 1px solid #FFFFFF;
-    color   : #FFFFFF;
-    padding : 1em;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 1em 1.5em;
     transition: all 0.3s;
+    border-radius: 100px 10px;
+    position: relative;
+    font-size: 1.5em;
+    font-weight: 200;
 }
 
 a.celebrate:hover {
-  border-color: #e67e22;
   background-color: #FFFFFF;
-  color: #424242;
+  color: #2EBFEF;
+  opacity: 0.8;
 }
 
 .intro-label {
     color: #fff;
     margin-bottom: 3em;
+}
+
+.pattern1 {
+    position: fixed;
+    background: url(../img/wedding-swirl-1.png);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.1;
+    z-index: 0;
 }
