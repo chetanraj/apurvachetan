@@ -96,6 +96,13 @@ p{
     font-family: "AlexBrush";
 }
 
+/* Sections
+ * --------------------------------------- */
+
+#section3 {
+    background-image: url(../img/ring.jpg);
+}
+
 /* App CSS
  * --------------------------------------- */
 
@@ -139,9 +146,23 @@ a.celebrate:after {
     z-index: 0;
 }
 
+.ring-picture {
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/ring.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 @media only screen 
-and (min-device-width : 320px) {
+and (min-device-width : 320px)
+and (max-device-width : 1024px) {
     h1 {
         font-size: 4em;
+    }
+
+    .ring-picture {
+        height: 50px;
     }
 }
