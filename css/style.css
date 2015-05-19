@@ -111,20 +111,22 @@ p{
 }
 
 a.celebrate {
-    border: 1px solid #FFF;
     color: #FFF;
-    padding: 1em 1.5em;
+    padding: .5em;
     transition: all 1s;
-    border-radius: 50px 5px;
     position: relative;
     font-size: 1.5em;
     font-weight: 200;
 }
 
-a.celebrate:hover {
-  background-color: #FFFFFF;
-  color: #2EBFEF;
-  opacity: 0.8;
+a.celebrate:after {
+    background: url(../img/deco-border.svg);
+    content: "";
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 1.5em;
+    left: 6.5%;
 }
 
 .pattern1 {
