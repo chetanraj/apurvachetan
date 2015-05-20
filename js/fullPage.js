@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         anchors: ['home', 'invite', 'location', 'others'],
-        sectionsColor: ['#2EBFEF', '#1BBC9B', '#7E8F7C', ''],
+        sectionsColor: ['#2EBFEF', '#1BBC9B', '', ''],
         navigation: true,
         navigationPosition: 'right',
         responsive: 1024,
