@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors: ['home', 'invite', 'location', 'others'],
+        anchors: ['home', 'invite', 'engaged', 'location'],
         sectionsColor: ['#2EBFEF', '#1BBC9B', '', ''],
         navigation: true,
         navigationPosition: 'right',
