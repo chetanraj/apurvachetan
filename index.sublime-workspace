@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"fff",
+				"FFFFFF"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"comple",
+				"complete"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/workspace/apurvachetan/js/fullPage.js",
+		"/workspace/mongrel/src/main/webapp/webresources/css/ls/lsLesson.css",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/lsdevicemain.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/lsResourceView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/lsDashboardTiles.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/lsLesson.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/lsAssessmentView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/lsLearnContent.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/lsPage.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/css/layout.css",
+		"/Users/sw-chetan-09/Library/Developer/CoreSimulator/Devices/7033B507-3B2E-4A8A-9EA1-4A9E4137099A/data/Containers/Bundle/Application/33B0716A-A2BD-4F1F-9C2F-BE9859971D43/learningspaces.app/www/webresources/javascript/ls/lsAssessmentView.js",
+		"/Users/sw-chetan-09/Library/Developer/CoreSimulator/Devices/7033B507-3B2E-4A8A-9EA1-4A9E4137099A/data/Containers/Bundle/Application/8631B8F2-7E12-464A-8EE1-A750569798A5/learningspaces.app/www/webresources/javascript/ls/lsAssessmentView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/lsReport.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/swutils.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/models/MapleSymbolicNotationQuestionModel.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/views/question/MapleSymbolicNotationQuestionView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/lsapp/module/login.js",
+		"/workspace/mongrel/src/main/webapp/webresources/css/ls/course-stream.css",
+		"/workspace/mongrel/src/main/webapp/webresources/css/ls/lsAssessment.css",
+		"/Users/sw-chetan-09/Library/Developer/CoreSimulator/Devices/7033B507-3B2E-4A8A-9EA1-4A9E4137099A/data/Containers/Bundle/Application/3A452269-EA8C-4F00-88BF-9E410C569F5F/learningspaces.app/www/webresources/javascript/swutils.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/proed/web/login.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/views/question/MultipleChoiceMultiSelectionQuestionView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/views/question/MultipleChoiceSingleSelectionQuestionView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/views/question/BaseQuestionView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/models/MultipleChoiceSingleSelectionQuestionModel.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/models/DragAndDropUserResponseModel.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/models/DragAndDropCorrectAnswersModel.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/models/MultipleChoiceMultiSelectionModel.js",
+		"/workspace/mongrel/src/main/webapp/WEB-INF/jsp/ls/studentCourseDashboard.jsp",
+		"/workspace/mongrel/src/main/webapp/WEB-INF/jsp/admin/manageCoursesSummary.jsp",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/views/question/TrueOrFalseQuestionView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/cms.js",
+		"/workspace/mongrel/src/main/lsmobile/platforms/ios/learningspaces/learningspaces-Prefix.pch",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/lsReportView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/lsReports.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/jquery.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/views/question/DragAndDropAnswerChoiceView.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/backbone-min.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/ls/course-stream-script.js",
+		"/workspace/mongrel/src/main/webapp/webresources/javascript/questions/js/libs/backbone/backbone-min.js",
+		"/workspace/mongrel/databaseScripts/platform/013_iteration20/alter_question_set_item_platform_002.sql",
+		"/workspace/mongrel/databaseScripts/platform/013_iteration20/alter_learn_question_history_platform_001.sql"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"style",
+			"lsResourceView",
+			"ResourceModel",
+			"nextPage",
+			"native",
+			"correct-icon.png",
+			"nativea",
+			"var hintButtonSrc = /webresources/images/al/hint-button.png",
+			"../../../webresources/images/al/hint-viewed.png",
+			"robot-icon-on.png",
+			"../../../webresources/images/al/hint-viewed.png",
+			"native",
+			"webresources/images/al/robo-icon.png",
+			"margin-left: 15px; width: 704px;",
+			".js",
+			"<script",
+			"<script>",
+			"script",
+			"&#034;",
+			"reportView = new ReportView();",
+			"new ReportView",
+			"new Re",
+			"ReportView",
+			"new ReportView",
+			"reportview  = Ba",
+			"ReportView",
+			"requireJS",
+			"custom_params"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lsdev",
+				"src/main/webapp/webresources/javascript/lsdevicemain.js"
+			],
+			[
+				"lsres",
+				"src/main/webapp/webresources/javascript/ls/lsResourceView.js"
+			],
+			[
+				"lsdas",
+				"src/main/webapp/webresources/javascript/ls/lsDashboardTiles.js"
+			],
+			[
+				"lsl",
+				"src/main/webapp/webresources/javascript/ls/lsLesson.js"
+			],
+			[
+				"lslear",
+				"src/main/webapp/webresources/javascript/ls/lsLearnContent.js"
+			],
+			[
+				"lspage",
+				"src/main/webapp/webresources/javascript/ls/lsPage.js"
+			],
+			[
+				"lsless",
+				"src/main/webapp/webresources/css/ls/lsLesson.css"
+			],
+			[
+				"layou",
+				"src/main/webapp/webresources/javascript/questions/css/layout.css"
+			],
+			[
+				"lsassessment",
+				"src/main/webapp/webresources/javascript/ls/lsAssessmentView.js"
+			],
+			[
+				"swut",
+				"src/main/webapp/webresources/javascript/swutils.js"
+			],
+			[
+				"maplesymbolicnotationquestionmodel",
+				"src/main/webapp/webresources/javascript/questions/js/models/MapleSymbolicNotationQuestionModel.js"
+			],
+			[
+				"maplesyma",
+				"src/main/webapp/webresources/javascript/questions/js/views/question/MapleSymbolicNotationQuestionView.js"
+			],
+			[
+				"lsassess",
+				"src/main/webapp/webresources/javascript/ls/lsAssessmentView.js"
+			],
+			[
+				"lsasses",
+				"src/main/webapp/webresources/css/ls/lsAssessment.css"
+			],
+			[
+				"course-str",
+				"src/main/webapp/webresources/css/ls/course-stream.css"
+			],
+			[
+				"login.js",
+				"src/main/webapp/webresources/javascript/lsapp/module/login.js"
+			],
+			[
+				"basequestionview",
+				"src/main/webapp/webresources/javascript/questions/js/views/question/BaseQuestionView.js"
+			],
+			[
+				"multiplechoicesingleselectionquestionmodel",
+				"src/main/webapp/webresources/javascript/questions/js/models/MultipleChoiceSingleSelectionQuestionModel.js"
+			],
+			[
+				"swuti",
+				"src/main/webapp/webresources/javascript/swutils.js"
+			],
+			[
+				"multiplechoicesingle",
+				"src/main/webapp/webresources/javascript/questions/js/views/question/MultipleChoiceSingleSelectionQuestionView.js"
+			],
+			[
+				"mulitplecho",
+				"src/main/webapp/webresources/javascript/questions/js/models/MultipleChoiceSingleSelectionQuestionModel.js"
+			],
+			[
+				"draganddropuserresponsemodel",
+				"src/main/webapp/webresources/javascript/questions/js/models/DragAndDropUserResponseModel.js"
+			],
+			[
+				"draganddropcorrectanswersmodel",
+				"src/main/webapp/webresources/javascript/questions/js/models/DragAndDropCorrectAnswersModel.js"
+			],
+			[
+				"multiplechoicemultiselectionmodel",
+				"src/main/webapp/webresources/javascript/questions/js/models/MultipleChoiceMultiSelectionModel.js"
+			],
+			[
+				"multiplech",
+				"src/main/webapp/webresources/javascript/questions/js/views/question/MultipleChoiceMultiSelectionQuestionView.js"
+			],
+			[
+				"mulitplec",
+				"src/main/webapp/webresources/javascript/questions/js/views/question/MultipleChoiceMultiSelectionQuestionView.js"
+			],
+			[
+				"multiple",
+				"src/main/webapp/webresources/javascript/questions/js/models/MultipleChoiceSingleSelectionQuestionModel.js"
+			],
+			[
+				"baseq",
+				"src/main/webapp/webresources/javascript/questions/js/views/question/BaseQuestionView.js"
+			],
+			[
+				"trueor",
+				"src/main/webapp/webresources/javascript/questions/js/views/question/TrueOrFalseQuestionView.js"
+			],
+			[
+				"ls.js",
+				"src/main/webapp/webresources/javascript/ls.js"
+			],
+			[
+				"cms.js",
+				"src/main/webapp/webresources/javascript/cms.js"
+			],
+			[
+				"coursedas",
+				"src/main/webapp/WEB-INF/jsp/ls/studentCourseDashboard.jsp"
+			],
+			[
+				"coursesummary.js",
+				"src/main/webapp/WEB-INF/jsp/admin/manageCoursesSummary.jsp"
+			],
+			[
+				"lsle",
+				"src/main/webapp/webresources/css/ls/lsLesson.css"
+			],
+			[
+				"lsassessmentv",
+				"src/main/webapp/webresources/javascript/ls/lsAssessmentView.js"
+			],
+			[
+				"lsreportview",
+				"src/main/webapp/webresources/javascript/ls/lsReportView.js"
+			],
+			[
+				"lsre",
+				"src/main/webapp/webresources/javascript/lsReports.js"
+			],
+			[
+				"learning",
+				"src/main/lsmobile/platforms/ios/learningspaces/learningspaces-Prefix.pch"
+			],
+			[
+				"draganddropa",
+				"src/main/webapp/webresources/javascript/questions/js/views/question/DragAndDropAnswerChoiceView.js"
+			],
+			[
+				"jquery.js",
+				"src/main/webapp/webresources/javascript/jquery.js"
+			],
+			[
+				"backbone-min",
+				"src/main/webapp/webresources/javascript/questions/js/libs/backbone/backbone-min.js"
+			],
+			[
+				"course-s",
+				"src/main/webapp/webresources/javascript/ls/course-stream-script.js"
+			],
+			[
+				"alter_question_set_item_platform_002",
+				"databaseScripts/platform/013_iteration20/alter_question_set_item_platform_002.sql"
+			],
+			[
+				"alter_learn_question_history_platform_001",
+				"databaseScripts/platform/013_iteration20/alter_learn_question_history_platform_001.sql"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 832.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
