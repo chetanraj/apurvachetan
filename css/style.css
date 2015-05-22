@@ -181,6 +181,14 @@ a.celebrate:after {
     right: 1em;
 }
 
+.panchavati-map {
+    position: absolute;
+    top:25%;
+    right: 10em;
+    width: 400px;
+    height: 300px;
+}
+
 @media only screen 
 and (min-device-width : 320px)
 and (max-device-width : 1024px) {
@@ -192,4 +200,15 @@ and (max-device-width : 1024px) {
     .ring-picture:hover {
         height: 50px;
     }
+
+    .panchavati-video {
+        display: none;
+    }
+
+    .panchavati-map {
+        left: 30%;
+        width: 100%;
+        left: 0em;
+    }
+
 }
