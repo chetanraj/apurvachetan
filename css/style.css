@@ -1,3 +1,10 @@
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+
+/* typicons */
+[class*="typicons-"]:before {
+  font-family: 'Typicons', sans-serif;
+}
+
 /* Style for our header texts
 * --------------------------------------- */
 h1{
@@ -187,6 +194,26 @@ a.celebrate:after {
     right: 10em;
     width: 400px;
     height: 300px;
+}
+
+.groomcredits {
+    position: absolute;
+    bottom: .3em;
+    color: #fff;
+    right: 1em;
+    width: 100%;
+    text-align: right;
+    background-color: rgba(255,255,255, 0.2);
+    padding: .3em 0;
+}
+
+.groom-heart {
+    color: #ffadad;
+}
+
+.groomcredits a {
+    color: #fff;
+    text-decoration: underline;
 }
 
 @media only screen 
