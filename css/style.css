@@ -1,8 +1,8 @@
-@import url(http://weloveiconfonts.com/api/?family=typicons);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 
-/* typicons */
-[class*="typicons-"]:before {
-  font-family: 'Typicons', sans-serif;
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
 }
 
 /* Style for our header texts
@@ -12,9 +12,6 @@ h1{
     font-family: arial,helvetica;
     color: #fff;
     margin:0;
-}
-.intro p{
-    color: #fff;
 }
 
 /* Centered texts in each section
@@ -49,7 +46,8 @@ h1{
 p{
 	font-size: 2em;
 }
-.intro p{
+.intro p {
+    color: #fff;
 	width: 50%;
 	margin: 0 auto;
 	font-size: 1.5em;
@@ -103,6 +101,13 @@ p{
     font-family: "AlexBrush";
 }
 
+/* Colors
+ * --------------------------------------- */
+
+ .pink {
+    color: #ffadad;
+ }
+
 /* Sections
  * --------------------------------------- */
 
@@ -117,10 +122,6 @@ p{
 
 .ring-cover {
     background-image: url(../img/ring.jpg);
-}
-
-.invite {
-    background-image: url(../img/pattern2.jpg)
 }
 
 /* App CSS
@@ -142,8 +143,9 @@ a.celebrate {
     padding: .5em;
     transition: all 1s;
     position: relative;
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: 200;
+    text-shadow: 3px 1px 2px rgba(34, 34, 34, 0.3);
 }
 
 a.celebrate:after {
@@ -200,11 +202,11 @@ a.celebrate:after {
     position: absolute;
     bottom: .3em;
     color: #fff;
-    right: 1em;
+    right: 0em;
     width: 100%;
     text-align: right;
     background-color: rgba(255,255,255, 0.2);
-    padding: .3em 0;
+    padding: .3em 1em 0 0;
 }
 
 .groom-heart {
@@ -214,6 +216,162 @@ a.celebrate:after {
 .groomcredits a {
     color: #fff;
     text-decoration: underline;
+}
+
+.celebrate-with-us {
+    color: #444;
+    margin: 5em 0;
+    position: relative;
+}
+
+.celebrate-with-us-block {
+    position: absolute;
+    right: 0em;
+    top: 1em;
+}
+
+@media (min-width: 768px) {
+    .celebrate-with-us-block {
+        right: 5em;
+    }
+}
+
+.directions-block {
+    margin-left: -12px;
+    margin-top: 10px;
+}
+
+/* Invite Timeline
+ * --------------------------------------- */
+
+ul[id=timeline] {
+    position: relative;
+    width: 275px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0
+}
+
+ul[id=timeline]:before {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 88px;
+    content: '';
+    background: #e0e0e0;
+    width: 1px;
+    height: 130px;
+    border-radius: 0
+}
+
+@media (min-width: 768px) {
+    ul[id=timeline]:before {
+        top:43px;
+        left: 100px;
+        width: 600px;
+        height: 1px;
+        border-radius: 0
+    }
+}
+
+ul[id=timeline] li {
+    display: block;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none}
+
+ul[id=timeline] time {
+    display: block;
+    width: 25%;
+    float: left;
+    margin-bottom: 10px;
+    font-size: 1.25rem
+}
+
+ul[id=timeline] time sup {
+    top: 6px;
+    right: -3px;
+    opacity: .75;
+    vertical-align: top;
+    font-size: .5rem;
+}
+
+ul[id=timeline] .timeline-marker {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 85px;
+    background: #e0e0e0;
+    margin: 0 auto 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+}
+
+ul[id=timeline] p {
+    margin-left: 120px;
+    text-align: left;
+    color: #ffadad;
+}
+
+ul[id=timeline] p .ss-icon {
+    font-size: 1.3rem;
+    padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+    ul[id=timeline] {
+        width:100%;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ul[id=timeline] li {
+        width: 25%;
+        float: left;
+        margin: 0;
+    }
+
+    ul[id=timeline] time {
+        display: block;
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+    }
+
+    ul[id=timeline] time sup {
+        top: 6px;
+        right: -3px;
+        opacity: .75;
+        vertical-align: top;
+        font-size: .5rem;
+    }
+
+    ul[id=timeline] .timeline-marker {
+        top: 40px;
+        left: 50%;
+        margin: 0 0 0 -3px
+    }
+
+    ul[id=timeline] p {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    ul[id=timeline] p .ss-icon {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding-right: 0;
+        color: #ffadad;
+        text-align: center;
+    }
 }
 
 @media only screen 
