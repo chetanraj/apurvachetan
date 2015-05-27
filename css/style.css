@@ -224,13 +224,13 @@ a.celebrate:after {
     position: relative;
 }
 
-.celebrate-with-us-block {
-    position: absolute;
-    right: 0em;
-    top: 1em;
-}
-
 @media (min-width: 768px) {
+    .celebrate-with-us-block {
+        position: absolute;
+        right: 0em;
+        top: 1em;
+    }
+
     .celebrate-with-us-block {
         right: 5em;
     }
@@ -394,6 +394,14 @@ and (max-device-width : 1024px) {
         left: 30%;
         width: 100%;
         left: 0em;
+    }
+
+    .calendar-block {
+        margin-top: 10px;
+    }
+
+    ul[id=timeline] {
+        margin-left: 20%;
     }
 
 }
