@@ -13,3 +13,7 @@ http://maplacejs.com/ - for maps
 [class*="typicons-"]:before {
   font-family: 'Typicons', sans-serif;
 }
+
+http://instafeedjs.com/ for instagram
+
+check more bg for moments

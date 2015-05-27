@@ -1,6 +1,68 @@
+@import url(http://weloveiconfonts.com/api/?family=fontelico);
+
+/* fontelico */
+[class*="fontelico-"]:before {
+  font-family: 'fontelico', sans-serif;
+}
+
+/* Colors
+ * --------------------------------------- */
+
+ .pink {
+    color: #ffadad;
+ }
+
+/* Fonts
+ * --------------------------------------- */
+
+@font-face {
+    font-family:"Ruthie";
+    src: url("Ruthie-Regular.otf")
+}
+
+@font-face {
+    font-family:"Scriptina";
+    src: url("scriptina.ttf");
+}
+
+@font-face {
+    font-family:"Quikhand";
+    src: url("Quikhand.otf");
+}
+
+@font-face {
+    font-family:"Allura";
+    src: url("Allura-Regular.otf");
+}
+
+@font-face {
+    font-family: "AlexBrush";
+    src: url("AlexBrush-Regular.ttf");
+}
+
+.ruthie {
+    font-family: "Ruthie";
+}
+
+.scriptina {
+    font-family: "Scriptina";
+}
+
+.quikhand {
+    font-family: "Quikhand";
+}
+
+.allura {
+    font-family: "Allura";
+}
+
+.alexbrush {
+    font-family: "AlexBrush";
+}
+
 body{
 	font-family: 'Open Sans Condensed','Arial Narrow', serif;
-	background: #ddd url(../img/bg.jpg) repeat top left;
+	background-color: #f7f7f7;
 	font-weight: 400;
 	font-size: 15px;
 	color: #333;
@@ -42,26 +104,28 @@ a{
 	font-weight: 700;
 }
 .container > header h2{
-	font-size: 14px;
 	font-weight: 300;
-	margin: 0;
-	padding: 15px 0 5px 0;
-	color: #666;
-	font-family: Cambria, Georgia, serif;
-	font-style: italic;
-	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+ font-size: 2em;
+  margin: 0;
+  padding: 15px 0;
+  color: #666;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
 }
+
 .container > header h2 strong{
 	color: #781430;
 }
 
 .main{
-	width: 672px;
+	width: 1024px;
 	height: auto;
 	padding: 30px 0;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
+    border: 1px solid #e2e2e2;
+    background-color: #fff;
 	
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
@@ -69,12 +133,37 @@ a{
 }
 
 .view {
-    width: 306px;
-    height: 306px;
+    width: 205px;
+    height: 200px;
     margin: 10px;
     float: left;
     position: relative;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     background: #FFF;
-    padding: 5px;
+    padding: 5px 0px 5px 5px;
+}
+
+.view img {
+    width: 200px;
+}
+
+.emo {
+ position: absolute;
+ bottom: 1em;
+ right: 1em;
+ color: #fff;
+}
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 1024px) {
+
+  .main {
+   width: 100%;
+  }
+
+  .view {
+    float: none;
+    margin: 10px auto;
+  }
 }

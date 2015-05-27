@@ -158,6 +158,11 @@ a.celebrate:after {
     left: 6.5%;
 }
 
+.invite-page-header {
+    font-size: 1.5em;
+    color: rgba(0,0,0,0.5);
+}
+
 .pattern1 {
     position: fixed;
     background: url(../img/wedding-swirl-1.png);
@@ -220,7 +225,7 @@ a.celebrate:after {
 
 .celebrate-with-us {
     color: #444;
-    margin: 5em 0;
+    margin-bottom: 10em;
     position: relative;
 }
 
