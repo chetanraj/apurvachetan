@@ -5,13 +5,16 @@ var feed = new Instafeed({
     sortBy: 'most-recent',
     links: 'false',
     template: '<div id="{{id}}" class="view"><img src="{{image}}" /></div>',
+    resolution: 'standard_resolution',
     after: function() {
         $(".view").each(function(){
             var emoArr = ["grin","happy","laugh","saint","squint","tongue","wink","wink2"];
             var rN = getRandomizer( 0, 7 );
             var emoClass = "emo fontelico-emo-" + emoArr[rN] ;
             var $emo = $("<span/>", {"class": emoClass})
-            $(this).append($emo)
+            $(this).append($emo).click(function(){
+                $(this).toggleClass('expand');
+            });
         });
     }
 });

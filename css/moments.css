@@ -120,12 +120,13 @@ a{
 .instafeedmain {
 	width: 920px;
 	height: auto;
+ min-height: 230px;
 	padding: 30px 0;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
-    border: 1px solid #e2e2e2;
-    background-color: #fff;
+ border: 2px solid #ffadad;
+ background-color: #fff;
 	
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
@@ -141,10 +142,27 @@ a{
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     background: #FFF;
     padding: 5px 0px 5px 5px;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
 }
 
 .view img {
     width: 200px;
+}
+
+@media (min-width: 768px) {
+ .view.expand {
+   width: 645px;
+   height: 640px;
+ }
+
+ .view.expand img {
+   width: 640px;
+   height: 640px;
+ }
 }
 
 .emo {

@@ -5,7 +5,8 @@ $(document).ready(function() {
         navigation: true,
         navigationPosition: 'right',
         responsive: 1024,
-        easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+        easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+        fitToSection: true,
     });
 });
 
