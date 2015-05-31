@@ -121,7 +121,7 @@ a{
 	width: 920px;
 	height: auto;
  min-height: 230px;
-	padding: 30px 0;
+	padding: 0;
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
@@ -172,6 +172,40 @@ a{
  color: #fff;
 }
 
+.emo:before {
+ margin-right: 5px;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+
+  border-radius: 100%;  
+  -webkit-animation: scaleout 1.0s infinite ease-in-out;
+  animation: scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
 @media only screen 
 and (min-device-width : 320px)
 and (max-device-width : 1024px) {
@@ -187,8 +221,10 @@ and (max-device-width : 1024px) {
 }
 
 @media only screen 
-and (orientation : landscape) {
+and (orientation : landscape)
+and (max-device-width : 1024px) {
   .view {
     float: left;
+    margin: 15px;
   }
 }

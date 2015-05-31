@@ -1,4 +1,9 @@
 $(document).ready(function() {
+	Modernizr.Detectizr.detect({
+	  detectDevice: true,
+	  detectDeviceModel: true
+	});
+
     $('#fullpage').fullpage({
         anchors: ['home', 'invite', 'engaged', 'location'],
         sectionsColor: ['#2EBFEF', '', '', ''],
