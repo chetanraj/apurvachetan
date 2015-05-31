@@ -381,8 +381,7 @@ ul[id=timeline] p .ss-icon {
 
 @media only screen 
 and (min-device-width : 320px)
-and (max-device-width : 1024px) 
-and (orientation : potrait) {
+and (max-device-width : 1024px) {
     h1 {
         font-size: 4em;
     }
@@ -390,16 +389,6 @@ and (orientation : potrait) {
     .ring-picture,
     .ring-picture:hover {
         height: 50px;
-    }
-
-    .panchavati-video {
-        display: none;
-    }
-
-    .panchavati-map {
-        left: 30%;
-        width: 100%;
-        left: 0em;
     }
 
     .calendar-block {
