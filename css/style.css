@@ -391,14 +391,15 @@ and (max-device-width : 1024px) {
         height: 50px;
     }
 
-    .calendar-block {
+    .calendar-block,
+    .directions-block {
         margin-top: 10px;
+        display: inline-block;
     }
 
-    ul[id=timeline] {
-        margin-left: 20%;
-    }
-
+    .directions-block {
+        margin-left: 1em;
+    }   
 }
 
 /* iPhone 6 in landscape */
