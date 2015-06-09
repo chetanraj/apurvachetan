@@ -17,3 +17,5 @@ http://maplacejs.com/ - for maps
 http://instafeedjs.com/ for instagram
 
 check more bg for moments
+
+cat style.css styles.css | cleancss -o app.css
