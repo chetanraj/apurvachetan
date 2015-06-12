@@ -13,21 +13,14 @@
     <link rel="shortcut icon" href="img/favicon.ico?v=162">
     <link rel="author" href="http://chetanraj.in">
 
-	<link rel="stylesheet" type="text/css" href="css/styles.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/app.css" />
 
     <!-- For facebook -->
     <meta property="og:title" content="Apurva &amp; Chetan" /> 
-    <meta property="og:image" content="img/canda.png" /> 
+    <meta property="og:image" content="img/chetanapurva.png" /> 
     <meta property="og:type" content="website">
     <meta property="og:description" content="Apurva weds Chetan" /> 
     <meta property="og:url" content="http://apurvachetan.in">
-
-	<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
 
 	<script src="js/jquery.js"></script>
 	<script src="js/jqueryui.js"></script>
@@ -37,6 +30,8 @@
 
     <script type="text/javascript" src="js/modernizr.js"></script> 
     <script type="text/javascript" src="js/detectizr.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 
 </head>
 <body>
@@ -117,7 +112,10 @@
         </div>
         
         <div class="section panchavati-cover" id="section3">
-            <div class="panchavati-pattern"></div>    
+            <div class="panchavati-pattern"></div>  
+
+            <div id="map-canvas"></div>
+
             <footer class="groomcredits quikhand">
                 Made with <span class="groom-heart entypo-heart"></span> by the <a href="chetanraj.in">groom</a>.
             </footer>
