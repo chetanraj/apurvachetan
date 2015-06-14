@@ -280,6 +280,26 @@ a.celebrate:after {
     left: 13%;
  }
 
+ .ornament, .ornament2 {
+    background-image: url(../img/ornament.svg);
+    position: absolute;
+    width: 4em;
+    height: 10em;
+    background-repeat: no-repeat;
+ }
+
+ .ornament {
+    top: 4em;
+    right: -2em;
+ }
+
+ .ornament2 {
+    top: -2em;
+    right: 0em;
+    width: 8em;
+    z-index: -1;
+ }
+
 ul[id=timeline] {
     position: relative;
     width: 275px;
