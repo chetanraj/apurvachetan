@@ -5,7 +5,6 @@ $(document).ready(function() {
 	});
 
     $('#fullpage').fullpage({
-        anchors: ['home', 'invite', 'engaged', 'location'],
         sectionsColor: ['#2EBFEF', '', '', ''],
         navigation: true,
         navigationPosition: 'right',
