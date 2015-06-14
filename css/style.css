@@ -260,6 +260,26 @@ a.celebrate:after {
     background-position-x: 0%;
  }
 
+ .flake, .flake2 {
+    background-image: url(../img/flake_pink.svg);
+    height: 6em;
+    width: 10%;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+
+ .flake {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+ }
+
+ .flake2 {
+    position: absolute;
+    top: 21%;
+    left: 13%;
+ }
+
 ul[id=timeline] {
     position: relative;
     width: 275px;
@@ -395,6 +415,11 @@ ul[id=timeline] p .ss-icon {
     }
 }
 
+@media only screen
+and (min-width: 768px) {
+
+}
+
 @media only screen 
 and (min-device-width : 320px)
 and (max-device-width : 1024px) {
@@ -415,11 +440,43 @@ and (max-device-width : 1024px) {
 
     .directions-block {
         margin-left: 1em;
-    }   
+    }
+
+    .flake {
+        
+    }
+
+    .flake2 {
+        
+    } 
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    .flake2 {
+        
+    }
+}
+
+/* iPhone 5 & 5S in portrait & landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    h1.landing-page-header {
+        font-size: 5em;
+    }
+
+    .flake {
+        top: 0%;
+    }
+
+    .flake2 {
+        top: 3%;
+    }
 }
 
 /* iPhone 6 in landscape */
-
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 1024px) 
