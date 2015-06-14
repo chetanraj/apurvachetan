@@ -489,6 +489,13 @@ and (max-device-width : 568px) {
     .flake2 {
         top: 3%;
     }
+
+    .ornament2 {
+      top: -2em;
+      right: -3em;
+      width: 8em;
+      z-index: -1;
+    }
 }
 
 /* iPhone 6 in landscape */
@@ -507,4 +514,26 @@ and (orientation : landscape) {
     .panchavati-map {
         height: 200px;
     }
+
+    h1.landing-page-header {
+        font-size: 2em;
+    }  
+
+    .us {
+        height: 1em;
+    } 
+}
+
+/* iPhone 5 in landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+    h1.landing-page-header {
+        font-size: 2em;
+    }  
+
+    .us {
+        height: 1em;
+    } 
 }

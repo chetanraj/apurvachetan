@@ -19,18 +19,4 @@ $(document).ready(function() {
             sectionsColor: ['#2EBFEF', '', '', '']
         });
     }
-    
-    initialize();
 });
-
-function initialize() {
-    var mapCanvas = document.getElementById('map-canvas');
-    var mapOptions = {
-      center: new google.maps.LatLng(12.7960, 77.4963),
-      zoom: 8
-    }
-    var map = new google.maps.Map(mapCanvas, mapOptions);
-}
-
-
-// #2EBFEF, #00B6AD, #FFE5B8, #9767AD
