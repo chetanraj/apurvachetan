@@ -435,11 +435,6 @@ ul[id=timeline] p .ss-icon {
     }
 }
 
-@media only screen
-and (min-width: 768px) {
-
-}
-
 @media only screen 
 and (min-device-width : 320px)
 and (max-device-width : 1024px) {
@@ -462,8 +457,8 @@ and (max-device-width : 1024px) {
         margin-left: 1em;
     }
 
-    .flake {
-        
+    .ornament {
+        display: none;
     }
 
     .flake2 {
