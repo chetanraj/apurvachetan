@@ -113,6 +113,14 @@ p{
     color: rgba(46, 191, 239, 1);
  }
 
+.blackgray {
+    color: #222;
+}
+
+.red {
+    color: #F00;
+}
+
 /* Sections
  * --------------------------------------- */
 
@@ -127,6 +135,19 @@ p{
 
 .ring-cover {
     background-image: url(../img/ring.jpg);
+}
+
+.invite {
+    background-image: url(../img/save_the_date.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+}
+
+.invite .intro {
+    padding: 1em 0;
+    background-color: rgba(255,255,255,0.7);
+    color: #222;
 }
 
 /* App CSS
@@ -165,7 +186,6 @@ a.celebrate:after {
 
 .invite-page-header {
     font-size: 1.5em;
-    color: rgba(0,0,0,0.5);
 }
 
 .pattern1 {
@@ -318,7 +338,7 @@ ul[id=timeline]:before {
     top: 20px;
     left: 88px;
     content: '';
-    background: #e0e0e0;
+    background: #222;
     width: 1px;
     height: 130px;
     border-radius: 0
@@ -365,7 +385,7 @@ ul[id=timeline] .timeline-marker {
     position: absolute;
     top: 7px;
     left: 85px;
-    background: #e0e0e0;
+    background: #F00;
     margin: 0 auto 10px;
     width: 6px;
     height: 6px;
@@ -375,7 +395,7 @@ ul[id=timeline] .timeline-marker {
 ul[id=timeline] p {
     margin-left: 120px;
     text-align: left;
-    color: #ffadad;
+    color: #222;
 }
 
 ul[id=timeline] p .ss-icon {
@@ -434,7 +454,7 @@ ul[id=timeline] p .ss-icon {
         width: 100%;
         margin: 0;
         padding-right: 0;
-        color: #ffadad;
+        color: #222;
         text-align: center;
     }
 }
@@ -464,10 +484,6 @@ and (max-device-width : 1024px) {
     .ornament {
         display: none;
     }
-
-    .flake2 {
-        
-    } 
 }
 
 @media only screen 
