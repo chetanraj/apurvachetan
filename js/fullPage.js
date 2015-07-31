@@ -1,22 +1,17 @@
 $(document).ready(function() {
-	Modernizr.Detectizr.detect({
-	  detectDevice: true,
-	  detectDeviceModel: true
-	});
-
-    if($('.desktop').length) {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         $('#fullpage').fullpage({
-            anchors: ['home', 'invite', 'engaged', 'location'],
-            sectionsColor: ['#2EBFEF', '', '', ''],
+            sectionsColor: ['#2EBFEF', '', '', '']
+        });
+    } else {
+        $('#fullpage').fullpage({
+            anchors: _anchors,
+            sectionsColor: ['#2EBFEF', '', ''],
             navigation: true,
             navigationPosition: 'right',
             responsive: 1024,
             easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
             fitToSection: true,
-        });
-    } else {
-        $('#fullpage').fullpage({
-            sectionsColor: ['#2EBFEF', '', '', '']
         });
     }
 });
