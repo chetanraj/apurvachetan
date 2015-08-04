@@ -1,12 +1,12 @@
 $(document).ready(function() {
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         $('#fullpage').fullpage({
-            sectionsColor: ['#2EBFEF', '', '', '#FF9900']
+            sectionsColor: ['#2EBFEF', '', '', '#F4A5A8']
         });
     } else {
         $('#fullpage').fullpage({
             anchors: _anchors,
-            sectionsColor: ['#2EBFEF', '', '', '#11E1FB'],
+            sectionsColor: ['#2EBFEF', '', '', '#F4A5A8'],
             navigation: true,
             navigationPosition: 'right',
             responsive: 1024,
