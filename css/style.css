@@ -228,6 +228,12 @@ a.celebrate:after {
     height: 300px;
 }
 
+.venue-details {
+    color: #FFF;
+    font-size: 2em;
+    text-shadow: 3px 1px 2px rgba(34, 34, 34, 0.3);
+}
+
 .groomcredits {
     position: absolute;
     bottom: .3em;
@@ -285,7 +291,7 @@ a.celebrate:after {
  }
 
  .flake, .flake2 {
-    background-image: url(../img/flake_pink.svg);
+    background-image: url(../img/flake.svg);
     height: 6em;
     width: 10%;
     background-repeat: no-repeat;
@@ -504,11 +510,14 @@ and (max-device-width : 568px) {
     }
 
     .flake {
-        top: 7%;
+        top: -6%;
+        width: 30%;
     }
 
     .flake2 {
-        top: 10%;
+        top: 2%;
+        left: 20%;
+        width: 30%;
     }
 
     .ornament2 {
