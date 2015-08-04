@@ -517,8 +517,12 @@ and (max-device-width : 1024px) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 420px)  { 
-    .gallery, .gallery2, .gallery3 {
+    .gallery, .gallery2 {
         background-position: 55%;
+    }
+
+    .gallery3 {
+        background-position: 35%;
     }
 }
 
