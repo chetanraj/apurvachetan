@@ -137,11 +137,25 @@ p{
     background-image: url(../img/ring.jpg);
 }
 
-.invite {
+.gallery {
     background-image: url(../img/save_the_date.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0;
+    background-position: 50%;
+}
+
+.gallery2{
+    background-image: url(../img/frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.gallery3{
+    background-image: url(../img/pebble.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
 .invite .intro {
@@ -186,6 +200,7 @@ a.celebrate:after {
 
 .invite-page-header {
     font-size: 1.5em;
+    margin-bottom: .5em;
 }
 
 .pattern1 {
@@ -351,7 +366,7 @@ ul[id=timeline]:before {
     top: 20px;
     left: 88px;
     content: '';
-    background: #222;
+    background: #e0e0e0;
     width: 1px;
     height: 130px;
     border-radius: 0
@@ -398,7 +413,7 @@ ul[id=timeline] .timeline-marker {
     position: absolute;
     top: 7px;
     left: 85px;
-    background: #F00;
+    background: #e0e0e0;
     margin: 0 auto 10px;
     width: 6px;
     height: 6px;
@@ -408,7 +423,7 @@ ul[id=timeline] .timeline-marker {
 ul[id=timeline] p {
     margin-left: 120px;
     text-align: left;
-    color: #222;
+    color: #ffadad;
 }
 
 ul[id=timeline] p .ss-icon {
@@ -467,7 +482,7 @@ ul[id=timeline] p .ss-icon {
         width: 100%;
         margin: 0;
         padding-right: 0;
-        color: #222;
+        color: #ffadad;
         text-align: center;
     }
 }
@@ -502,7 +517,7 @@ and (max-device-width : 1024px) {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 420px)  { 
-    .invite {
+    .gallery, .gallery2, .gallery3 {
         background-position: 55%;
     }
 }
