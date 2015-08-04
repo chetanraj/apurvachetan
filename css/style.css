@@ -150,6 +150,12 @@ p{
     color: #222;
 }
 
+.panchavati {
+    background-color: #FF9900;
+    background-image: -webkit-linear-gradient(top, #FF9900, #ffffff); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+    background-image:         linear-gradient(to bottom, #FF9900, #ffffff); /* Chrome 26, Firefox 16+, IE 10+, Opera */
+}
+
 /* App CSS
  * --------------------------------------- */
 
