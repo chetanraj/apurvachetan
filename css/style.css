@@ -261,6 +261,10 @@ a.celebrate:after {
     left: 0;
     background-repeat: no-repeat;
     background-position: 50% 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
