@@ -125,6 +125,10 @@ p{
     color: #FFF;
 }
 
+.yellow {
+    color: #FDF14F;
+}
+
 /* Sections
  * --------------------------------------- */
 
@@ -323,7 +327,7 @@ a.celebrate:after {
     position: absolute;
     bottom: 3em;
     text-align: left;
-    padding-left: 1em;
+    padding: 0 1em;
 }
 
 .over-image h3 {
@@ -341,6 +345,10 @@ a.celebrate:after {
     font-size: 1em;
     line-height: 1.5em;
     font-weight: bold;
+}
+
+.moments-link {
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
