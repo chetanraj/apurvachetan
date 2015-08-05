@@ -1,6 +1,6 @@
 var feed = new Instafeed({
     get: 'tagged',
-    tagName: 'apurvachetan2015',
+    tagName: 'apurvachetanwedding',
     clientId: 'fdcb626fc3294270b882a3ff7f1a4bb2',
     sortBy: 'most-recent',
     links: 'false',

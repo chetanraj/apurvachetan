@@ -211,6 +211,10 @@ a.celebrate:after {
     margin-bottom: .5em;
 }
 
+.calendar-block {
+    margin-left: 1em;
+}
+
 .pattern1 {
     position: fixed;
     background: url(../img/wedding-swirl-1.png);
