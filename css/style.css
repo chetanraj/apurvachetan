@@ -121,6 +121,10 @@ p{
     color: #F00;
 }
 
+.white {
+    color: #FFF;
+}
+
 /* Sections
  * --------------------------------------- */
 
@@ -280,6 +284,30 @@ a.celebrate:after {
     color: #444;
     margin-bottom: 8em;
     position: relative;
+}
+ 
+.over-image {
+    position: absolute;
+    bottom: 3em;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.over-image h3 {
+    font-size: 3em;
+    color: #FFF;
+}
+
+.over-image p {
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+}
+
+.over-image p {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {
