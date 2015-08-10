@@ -5,6 +5,12 @@
   font-family: 'fontelico', sans-serif;
 }
 
+html, body { 
+  height:100%; 
+  margin:0; 
+  padding:0; 
+}
+
 /* Colors
  * --------------------------------------- */
 
@@ -78,6 +84,8 @@ a{
 .container{
 	width: 100%;
 	position: relative;
+  background-color: #FFD700;
+  height:100%;
 }
 .clr{
 	clear: both;
@@ -149,6 +157,7 @@ a{
     -ms-transition: all .5s ease-out;
     -o-transition: all .5s ease-out;
     transition: all .5s ease-out;
+    z-index: 1;
 }
 
 .view img {
@@ -193,6 +202,16 @@ a{
   border-radius: 100%;  
   -webkit-animation: scaleout 1.0s infinite ease-in-out;
   animation: scaleout 1.0s infinite ease-in-out;
+}
+
+.pattern1 {
+    position: fixed;
+    background: url(../img/wedding-swirl-1.png);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.3;
+    z-index: 0;
 }
 
 @-webkit-keyframes scaleout {
