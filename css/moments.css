@@ -100,6 +100,7 @@ a{
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
   text-align: center;
+  z-index: 1;
 }
 .container > header h1{
 	font-size: 36px;
@@ -107,8 +108,7 @@ a{
 	margin: 0;
 	position: relative;
 	font-weight: 300;
-	color: #fff;
-	text-shadow: 1px 1px 1px #ccc;
+	color: #FF3B3D;
 }
 .container > header h1 span{
 	font-weight: 700;
@@ -118,9 +118,8 @@ a{
  font-size: 2em;
   margin: 0;
   padding: 15px 0;
-  color: #fff;
+  color: #FF3B3D;
   font-style: italic;
-  text-shadow: 1px 1px 1px #ccc;
 }
 
 .container > header h2 strong{
