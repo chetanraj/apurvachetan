@@ -6,7 +6,7 @@ $(document).ready(function() {
     } else {
         $('#fullpage').fullpage({
             anchors: _anchors,
-            sectionsColor: ['#2EBFEF', '', '', '', '#23C6E8', ''],
+            sectionsColor: ['#2EBFEF', '', '#23C6E8', ''],
             navigation: true,
             navigationPosition: 'right',
             responsive: 1024,
